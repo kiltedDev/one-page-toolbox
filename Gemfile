@@ -7,7 +7,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'dotenv-rails'
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
+gem 'webpacker', '~> 3.0'
+gem 'foreman'
+gem 'react_on_rails', '~> 9.0.1'
 
 group :development do
   gem 'listen', '~> 3.0.5'
