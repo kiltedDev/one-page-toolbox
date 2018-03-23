@@ -10,7 +10,7 @@ gem 'dotenv-rails'
 gem 'font-awesome-rails'
 gem 'webpacker', '~> 3.0'
 gem 'foreman'
-gem 'react_on_rails', '~> 9.0.1'
+gem 'react_on_rails', '10.0.2'
 
 group :development do
   gem 'listen', '~> 3.0.5'
