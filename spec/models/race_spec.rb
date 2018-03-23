@@ -31,8 +31,4 @@ RSpec.describe Race, type: :model do
     it { should_not have_valid(:charisma).when(nil, 5, 3, -5) }
 
   end
-
-  context "#associations" do
-    it { should have_many :characters }
-  end
 end
