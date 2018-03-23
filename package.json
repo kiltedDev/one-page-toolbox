@@ -1,5 +1,7 @@
 {
   "name": "one-page-toolbox",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react-on-rails": "^10.1.3"
+  }
 }
