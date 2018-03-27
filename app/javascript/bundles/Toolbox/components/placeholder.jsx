@@ -4,10 +4,10 @@
       <div class="ct" id="t4">
          <div class="ct" id="t5">
           <ul id="menu">
-            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li></a>
-            <a href="#t2"><li class="icon fa fa-keyboard-o" id="dos"></li></a>
-            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li></a>
-            <a href="#t4"><li class="icon fa fa-dribbble" id="cuatro"></li></a>
+            <a href="#t1"><li class="icon fas fa-calculator" id="uno"></li></a>
+            <a href="#t2"><li class="icon fas fa-gavel" id="dos"></li></a>
+            <a href="#t3"><li class="icon fas fa-clock" id="tres"></li></a>
+            <a href="#t4"><li class="icon fas fa-magic" id="cuatro"></li></a>
             <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li></a>
           </ul>
           <div class="page" id="p1">
