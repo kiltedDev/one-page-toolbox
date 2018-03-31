@@ -1,24 +1,24 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import PBCalc from './PBCalc';
+import TableLine from './TableLine';
+import TableBlock from './TableBlock';
+import RaceSelect from './RaceSelect';
 
 export default class HelloWorld extends React.Component {
   static propTypes = {
     name: PropTypes.string.isRequired, // this is passed from the Rails view
   };
 
-  /**
-   * @param props - Comes from your rails view.
-   */
   constructor(props) {
     super(props);
-
-    // How to set initial state in ES6 class syntax
-    // https://facebook.github.io/react/docs/reusable-components.html#es6-classes
-    this.state = { name: this.props.name };
+    this.state = {
+      selectedRace: this.props.raceStats[0],
+    };
   }
 
-  updateName = (name) => {
-    this.setState({ name });
+  updateRace = (race) => {
+    this.setState({ selectedRace: race });
   };
 
   render() {
